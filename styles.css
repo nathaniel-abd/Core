@@ -1,0 +1,357 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  align-content: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgb(216,216,216);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+header {
+  background-image: url(images/amogus.jpeg);
+  background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  height: 1000px;
+  width: 100%;
+  background-color: white;
+  font-family: Ubuntu;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "streamster";
+}
+
+.clear {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  background-color: #008CBA;
+}
+
+.check {
+  color: white;
+  padding: 25px 42px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  background-color: coral;
+}
+
+@font-face {
+  font-family: streamster;
+  src: url(streamster.ttf);
+}
+
+
+.container{
+  background-image: linear-gradient(rgb(58, 60, 175), rgb(255, 75, 75));
+  height: 1500px;
+  width: 100%;
+  display: inline-block;
+}
+
+.container2{
+  background-image: linear-gradient(rgb(255, 75, 75), rgba(255,145,10,1));
+  height: 150%;
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+
+}
+  .tects {
+    height: 420px; 
+    width: 655px; 
+    vertical-align: middle;
+    background-color: white; 
+    border-radius: 20px 20px 20px 20px; 
+    box-shadow: 15px 15px 10px #2c2c2c3f;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  p {
+    margin: 40px; 
+    font-size: 17px;
+  }
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header {
+  background-image: url(images/amogus.jpeg);
+  background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "streamster";
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 500px;
+  margin: 50px;
+  text-align: center;
+  font-family: arial;
+}
+
+.space {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 500px;
+  margin: 50px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #6C6AFF;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 90%;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #008CBA;
+}
+
+
+* {box-sizing: border-box}
+
+body {
+  font-family: Verdana, sans-serif; 
+  margin:0;
+  overflow-x: hidden;
+  overflow-y: scroll;}
+
+  .mySlides {
+    display: none
+  }
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgb(216,216,216);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  bottom: 8px;
+  width: 100%;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.container{
+  background-image: linear-gradient(rgb(58, 60, 175), rgb(255, 75, 75));
+  height: 1500px;
+  width: 100%;
+  display: inline-block;
+}
+
+.container2{
+  background-image: linear-gradient(rgb(255, 75, 75), rgba(255,145,10,1));
+  height: 150%;
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+
+}
+  .tects {
+    height: 420px; 
+    width: 655px; 
+    vertical-align: middle;
+    background-color: white; 
+    border-radius: 20px 20px 20px 20px; 
+    box-shadow: 15px 15px 10px #2c2c2c3f;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  p {
+    margin: 40px; 
+    font-size: 17px;
+  }
+
